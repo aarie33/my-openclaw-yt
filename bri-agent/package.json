@@ -1,0 +1,17 @@
+{
+  "name": "bri-gmail-mcp-server",
+  "version": "1.0.0",
+  "description": "Gmail MCP Server untuk membaca email mutasi BRI",
+  "main": "tools/gmail-mcp-server.js",
+  "scripts": {
+    "start": "node tools/gmail-mcp-server.js",
+    "setup-gmail": "node tools/gmail-mcp-server.js --setup"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "googleapis": "^140.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
