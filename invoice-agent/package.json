@@ -1,0 +1,27 @@
+{
+  "name": "agent-invoice",
+  "version": "1.0.0",
+  "description": "OpenClaw plugin — baca email kuitansi Gmail & catat ke Google Sheets",
+  "type": "module",
+  "main": "./index.ts",
+  "openclaw": {
+    "extensions": ["./index.ts"]
+  },
+  "scripts": {
+    "auth:gmail": "node tools/gmail-auth.js"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.32.0",
+    "googleapis": "^144.0.0",
+    "pdf-parse": "^1.1.1",
+    "cheerio": "^1.0.0",
+    "he": "^1.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}

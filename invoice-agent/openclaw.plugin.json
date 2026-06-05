@@ -1,0 +1,12 @@
+{
+  "id": "agent-invoice",
+  "name": "Agent Invoice — Kuitansi & Nota Otomatis",
+  "description": "Baca email kuitansi dari Gmail (Grab, Gojek, Tokopedia, Shopee, PDF invoice), ekstrak data pengeluaran, dan catat ke Google Sheets secara otomatis.",
+  "version": "1.0.0",
+  "author": "Arie AI Daily",
+  "tools": [
+    "scan_invoice_emails",
+    "record_to_sheets",
+    "get_expense_summary"
+  ]
+}

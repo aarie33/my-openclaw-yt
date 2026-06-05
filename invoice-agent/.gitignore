@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.js.map
+
+# Credentials — JANGAN COMMIT
+gmail-credentials.json
+gmail-token.json
