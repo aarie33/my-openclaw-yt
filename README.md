@@ -10,3 +10,11 @@ All Agents for OpenClaw are listed here. Each agent is a separate package that c
 ## invoice-agent
 - **Tugas**: Baca invoice/kuitansi dari Gmail (Grab, Gojek, Tokopedia, Shopee), catat ke Google Sheets
 - **Trigger kata kunci**: invoice, kuitansi, nota, pengeluaran, belanja, Grab, Gojek, Tokopedia, Shopee, Sheets
+
+
+## Tambahkan ini untuk mengaktifkan bandar-hunter pada AGENTS.md
+
+## bandar-hunter
+- **Tugas**: Menganalisis pasar saham Indonesia, khususnya saham LQ45, untuk mendeteksi aktivitas tidak biasa seperti lonjakan volume, breakout, dan smart money. Memberikan analisis dalam bahasa trader Indonesia yang mudah dipahami.
+- **Trigger kata kunci**: saham, pasar, LQ45, volume, breakout, smart money
+

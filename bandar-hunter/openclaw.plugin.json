@@ -1,0 +1,29 @@
+{
+  "name": "bandar-hunter",
+  "displayName": "Bandar Hunter AI",
+  "version": "2.0.0",
+  "description": "Scan harian saham LQ45 — deteksi volume anomaly, breakout, dan smart money otomatis setiap hari bursa",
+  "soul": "SOUL.md",
+  "main": "dist/index.js",
+  "trigger": {
+    "keywords": [
+      "scan saham", "bandar hunter", "cek saham hari ini",
+      "volume anomaly", "breakout hari ini", "smart money",
+      "kandidat saham", "watchlist hari ini", "lq45 scan"
+    ],
+    "schedule": {
+      "cron": "0 15 * * 1-5",
+      "timezone": "Asia/Jakarta",
+      "description": "Scan otomatis setiap hari bursa jam 15:00 WIB"
+    }
+  },
+  "mcp": {
+    "server": {
+      "command": "node",
+      "args": ["dist/index.js"]
+    }
+  },
+  "env": {
+    "DEEPSEEK_API_KEY": "${DEEPSEEK_API_KEY}"
+  }
+}
